@@ -1,0 +1,73 @@
+#Installation 
+
+git --version
+
+git  config --list
+
+#Configuration
+
+# Identity Name
+git config --global user.name "Mohamed Toungara"
+
+# Identity Email
+git config --global user.email "toungara@it-computing.net"
+
+# Editor Tool
+git config --global core.editor vim
+
+# Diff Tool
+git config --global merge.tool filemerge
+
+# Identity Name
+git config --global user.name "aquelito"
+
+# Identity Email
+git config --global user.email "axel@aquelito.fr"
+
+# Editor Tool
+git config --global core.editor subl
+
+git init 
+
+git add filename
+
+git commit -m "version 2"
+
+git status
+
+git log
+
+git branch  # voir differente branch
+
+git checkout projet_git_second # Basculement vers une autre branche
+Basculement sur la branche 'projet_git_second'
+
+git checkout master
+Basculement sur la branche 'master'
+
+git merge projet_git_second # fusion projet_git_second
+Déjà à jour.
+
+git branch -d projet_git_second # suppression branch projet_git_second
+
+git branch -d projet_git_second 
+Branche projet_git_second supprimée (précédemment 318a5ce).
+
+# Distribution projet ---> travail collaboratif
+# depot local ---> depot distant ---> users
+
+git remote add origin https://github.com/mtoungara/git.git
+
+git remote # voir depot distant
+
+# Deposer le projet 
+
+git push origin master 
+
+# Recuperer le projet # il faut intégrer le changement avant de poussé à nouveau
+
+git pull origin master
+
+
+
+

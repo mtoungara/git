@@ -1,0 +1,20 @@
+#Installation 
+
+git --version
+
+git  config --list
+
+#Configuration
+
+# Identity Name
+git config --global user.name "Mohamed Toungara"
+
+# Identity Email
+git config --global user.email "toungara@it-computing.net"
+
+# Editor Tool
+git config --global core.editor vim
+
+# Diff Tool
+git config --global merge.tool filemerge
+
